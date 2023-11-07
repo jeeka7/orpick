@@ -1,9 +1,8 @@
 import streamlit as st
 
 st.sidebar.title("Orpick Music Band Studio")
-st.sidebar.selectbox("Select a page", ["Student Registration","Event Inquiry","About Me","Contact us"])
 
-st.write ("Kindly chose your options")
+st.write ("Kindly chose your options on left sidebar")
 
 if st.sidebar.button("Student Registration"):
     st.write("Kindly fill this if you want to learn Music from Orpick Studios  \n[Student Registration Form](https://forms.gle/FAVrsh2XoCFrD4a78)")
